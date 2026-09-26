@@ -1,4 +1,4 @@
-** Final Project Sanbercode Batch 80 - Quality Assurance **
+# Final Project Sanbercode Batch 80 - Quality Assurance #
 
 Repo ini merupakan project akhir dari bootcamp Sanbercode Sanbercode Batch 80 - Quality Assurance. 
 Automation testing web OrangeHRM (https://opensource-demo.orangehrmlive.com/) menggunakan Cypress.
