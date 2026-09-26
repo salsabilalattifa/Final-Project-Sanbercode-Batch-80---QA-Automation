@@ -19,6 +19,10 @@ describe('Akses Halaman Directory', () => {
 })
 
 describe('Filter Halaman Directory', () => {
+    beforeEach(() => {
+        cy.intercept('GET', '**/api/v2/pim/employees**').as('searchEmployees')  
+    })
+
     // TC-021
     it('Tombol hidden filter berfungsi', () => {
         // Sudah berada di halaman Directory login
@@ -81,6 +85,9 @@ describe('Filter Halaman Directory', () => {
                 directoryPage.clickDropdownLocation()
                 directoryPage.selectDropdownOption(location)
                 directoryPage.clickSearch()
+                cy.wait('@searchEmployees').then((interception) => {         
+                    expect(interception.response.statusCode).to.eq(200)       
+                })
                 directoryPage.assertionTableFiltered(location)
                 cy.get('.oxd-userdropdown-tab').click()
                 cy.contains('Logout').click()

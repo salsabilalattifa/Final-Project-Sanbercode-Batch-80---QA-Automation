@@ -70,7 +70,6 @@ class recruitmentPage {
         cy.contains('.oxd-table-header', 'Date of Application').should('be.visible')
         cy.contains('.oxd-table-header', 'Status').should('be.visible')
         cy.contains('.oxd-table-header', 'Actions').should('be.visible')
-
         return this
     }
 
