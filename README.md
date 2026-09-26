@@ -9,5 +9,4 @@ Untuk fitur yang dilakukan test sebagai berikut :
 2. Directory
 3. Recruitment
 <br> 
-<br>
 Link Test Case : https://docs.google.com/spreadsheets/d/1LG8Xk7_cFvqBmQ1_X4rbrcNzI4-vmzuWRZeupHFhNXk/edit?gid=0#gid=0
