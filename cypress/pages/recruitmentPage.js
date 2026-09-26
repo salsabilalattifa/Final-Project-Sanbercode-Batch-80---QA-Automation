@@ -115,6 +115,7 @@ class recruitmentPage {
 
     clickDropdown(label) {
         cy.contains('.oxd-input-group', label).find('.oxd-select-text').click()  
+        cy.wait(6000)
         cy.get('.oxd-select-dropdown').should('be.visible') 
         return this
     }
