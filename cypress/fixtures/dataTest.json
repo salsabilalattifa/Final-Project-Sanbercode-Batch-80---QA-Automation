@@ -1,0 +1,13 @@
+{
+    "dataJobTitle": ["HR Manager", "Chief Financial Officer"],
+    "dataLocation": ["Texas R&D", "New York Sales Office"],
+    "dataFilter" : {
+        "jobTitle" : "Chief Financial Officer",
+        "location" : "New York Sales Office"
+    },
+    "filterCandidates" : {
+        "jobTitle": "Account Assistant",
+        "vacancy": "Junior Account Assistant",
+        "methodOfApplication": "Manual"
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "validData" : {
+    "username" : "Admin",
+    "usernameKapital" : "ADMIN",
+    "password" : "admin123"
+  },
+  "invalidData" : {
+    "invalidUsername" : "adminhrd",
+    "spacedUsername1" : " Admin",
+    "spacedUsername2" : "Admin ",
+    "invalidPassword" : "admin456",
+    "passwordKapital" : "ADMIN123"
+  },
+  "dataJobTitle": ["HR Manager", "Software Engineer"]
+}
+  
